@@ -16,4 +16,4 @@ TEST_IMG_DIR = os.path.join(DATA_DIR, "test")
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
-MODEL_NAME = "scratch"
+MODEL_NAME = "resnet18" #scratch or vgg16
